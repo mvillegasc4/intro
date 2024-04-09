@@ -4,7 +4,7 @@ from PIL import Image
 st.title(" Bienvenido")
 
 st.header("En este puedo demostrar al mundo las capacidades sobre humanas que poseo")
-st.write("Tengo un doctorado en Memes.")
+st.write("Te amo hello kitty.")
 image=Image.open("kitty.jpg")
 st.image(image, caption= "hello kitty :3")
 
