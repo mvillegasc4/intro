@@ -5,8 +5,8 @@ st.title(" Bienvenido")
 
 st.header("En este puedo demostrar al mundo las capacidades sobre humanas que poseo")
 st.write("Tengo un doctorado en Memes.")
-image=Image.open("Burro.jpg")
-st.image(image, caption= "Burro sexy")
+image=Image.open("kitty.jpg")
+st.image(image, caption= "hello kitty :3")
 
 texto=st.text_input("Escribe algo", "Este es mi texto")
 st.write("el texto escrito es", texto)
@@ -23,11 +23,11 @@ with col2:
   st.subheader("Esta es la segunda")
   modo=st.radio("Que modalidad es la principal de tu interfaz",("Visual", "auditivo", "tactil"))
   if modo=="Visual":
-    st.write("asdasdsadasdsa")
+    st.write("holaholahola")
   if modo=="auditivo":
-    st.write("skjasjdklas")
+    st.write("holiholiholi")
   if modo=="tactil":
-    st.write("jdasdlaksdadoj")
+    st.write("holaholiholo")
 
 
 
