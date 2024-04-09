@@ -5,7 +5,7 @@ st.title(" Bienvenido")
 
 st.header("En este puedo demostrar al mundo las capacidades sobre humanas que poseo")
 st.write("Te amo hello kitty.")
-image=Image.open("kitty.jpg")
+image=Image.open("kitty.png")
 st.image(image, caption= "hello kitty :3")
 
 texto=st.text_input("Escribe algo", "Este es mi texto")
